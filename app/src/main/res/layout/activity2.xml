@@ -30,7 +30,8 @@
             android:layout_weight="1"
             android:background="@color/white"
             android:ems="10"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:autofillHints="" />
 
         <TextView
             android:id="@+id/txt_pass"
@@ -53,6 +54,7 @@
             android:layout_weight="1"
             android:background="@color/white"
             android:ems="10"
+            android:hint="@string/see_criteria_below"
             android:inputType="textPassword" />
 
         <TextView
@@ -88,6 +90,7 @@
             android:layout_weight="1"
             android:textColor="@color/white"
             android:textSize="20sp"
+            android:fontFamily="@font/museosans_3"
             android:text="@string/txt_const" />
     </LinearLayout>
 

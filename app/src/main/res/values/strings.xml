@@ -2,12 +2,13 @@
     <string name="app_name">UI_Exercise1</string>
     <string name="tag1">"GreenFlag customers can create an account to access"</string>
     <string name="txt_car">Car health updates"</string>
-    <string name="txt_req">"Request a rescue online"</string>
-    <string name="txt_pol">"Policy information"</string>
-    <string name="btn_create">"Create an account</string>
-    <string name="txt_email">"Email address</string>
-    <string name="txt_pass">"Create Password</string>
-    <string name="txt_repeat">"Repeat Password</string>
+    <string name="txt_req">Request a rescue online</string>
+    <string name="txt_pol">Policy information</string>
+    <string name="btn_create">Create an account</string>
+    <string name="txt_email">Email address</string>
+    <string name="txt_pass">Create Password</string>
+    <string name="txt_repeat">Repeat Password</string>
     <string name="txt_const">Your password should have a minimum of 8 characters and contain at least one number, one uppercase and one lowercase letter.You can use special characters.</string>
     <string name="btn_next">Next</string>
+    <string name="see_criteria_below"> see criteria below</string>
 </resources>
