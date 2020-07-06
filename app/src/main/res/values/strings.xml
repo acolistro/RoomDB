@@ -11,4 +11,17 @@
     <string name="txt_const">Your password should have a minimum of 8 characters and contain at least one number, one uppercase and one lowercase letter.You can use special characters.</string>
     <string name="btn_next">Next</string>
     <string name="see_criteria_below"> see criteria below</string>
+
+    <string name="upload">upload</string>
+    <string name="camera">camera</string>
+    <string name="name">Name</string>
+    <string name="ni">National Insurance number</string>
+    <string name="passport">Passport</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
 </resources>
