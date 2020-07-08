@@ -36,7 +36,7 @@ public class Person {
 
     }
 
-
+@Ignore
     public Person(int id, String name, String email, String password, String ni, String passport, String gender, String bdate, String country, String photo) {
         this.id = id;
         this.name = name;

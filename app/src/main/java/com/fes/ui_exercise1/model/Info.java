@@ -1,12 +1,12 @@
 package com.fes.ui_exercise1.model;
 
-import android.graphics.drawable.Drawable;
-
 import androidx.room.Entity;
 import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
 @Entity(tableName = "information")
+
+
 public class Info {
     @PrimaryKey(autoGenerate = true)
     int id;

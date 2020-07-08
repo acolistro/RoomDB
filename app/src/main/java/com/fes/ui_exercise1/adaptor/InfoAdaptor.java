@@ -12,7 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.fes.ui_exercise1.Constant.Constants;
+import com.fes.ui_exercise1.constant.Constant;
 import com.fes.ui_exercise1.R;
 import com.fes.ui_exercise1.RegistrationDetails;
 import com.fes.ui_exercise1.ViewDetails;
@@ -45,9 +45,7 @@ public class InfoAdaptor extends RecyclerView.Adapter<InfoAdaptor.MyViewHolder> 
         holder.ni.setText(mInfoList.get(i).getNi());
         holder.passport.setText(mInfoList.get(i).getPassport());
         holder.passport.setText(mInfoList.get(i).getPassword());
-        holder.confirm.setText(mInfoList.get(i).getConfirm());
         holder.gender.setText(mInfoList.get(i).getGender());
-        holder.bdate.setText(mInfoList.get(i).getDob());
         holder.country.setText(mInfoList.get(i).getCountry());
         holder.photo.setImageURI(Uri.parse(mInfoList.get(i).getPhoto()));
 

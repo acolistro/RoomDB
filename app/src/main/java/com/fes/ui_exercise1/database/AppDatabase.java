@@ -8,9 +8,9 @@ import androidx.room.RoomDatabase;
 
 import com.fes.ui_exercise1.model.Person;
 
-import java.net.ContentHandler;
+import com.fes.ui_exercise1.model.Info;
 
-@Database(entities = {Person.class}, version = 1, exportSchema = false)
+@Database(entities = {Person.class, Info.class}, version = 1, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
 
     private static final Object LOCK = new Object();
@@ -31,4 +31,6 @@ public abstract class AppDatabase extends RoomDatabase {
     }
 
     public abstract iPersonDao personDao();
+    public abstract InfoDao infoDao();
 }
+
