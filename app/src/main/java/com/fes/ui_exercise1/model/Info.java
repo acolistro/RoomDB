@@ -1,57 +1,48 @@
 package com.fes.ui_exercise1.model;
 
+import android.graphics.drawable.Drawable;
+
 import androidx.room.Entity;
 import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
-@Entity(tableName = "person")
-
-
-public class Person {
+@Entity(tableName = "information")
+public class Info {
     @PrimaryKey(autoGenerate = true)
     int id;
     String name;
-    String email;
-    String password;
     String ni;
     String passport;
+    String password;
     String gender;
     String bdate;
     String country;
     String photo;
 
 
-@Ignore
-    public Person(String name, String email, String password, String ni, String passport, String gender, String bdate, String country, String photo) {
 
-        this.name = name;
-        this.email = email;
-        this.password = password;
-        this.ni = ni;
-        this.passport = passport;
-        this.gender = gender;
-        this.bdate = bdate;
-        this.country = country;
-        this.photo = photo;
-
-    }
-
-
-    public Person(int id, String name, String email, String password, String ni, String passport, String gender, String bdate, String country, String photo) {
+    public Info(int id, String name, String ni, String passport, String password, String gender, String bdate, String country, String photo) {
         this.id = id;
         this.name = name;
-        this.email = email;
-        this.password = password;
         this.ni = ni;
         this.passport = passport;
+        this.password = password;
         this.gender = gender;
         this.bdate = bdate;
         this.country = country;
         this.photo = photo;
-
     }
 
-    public Person(String name, String ni, String passport, String gender, String bdate) {
+    @Ignore
+    public Info(String name, String ni, String passport, String password, String gender, String bdate, String country, String photo) {
+        this.name = name;
+        this.ni = ni;
+        this.passport = passport;
+        this.password = password;
+        this.gender = gender;
+        this.bdate = bdate;
+        this.country = country;
+        this.photo = photo;
     }
 
     public int getId() {
@@ -70,22 +61,6 @@ public class Person {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
     public String getNi() {
         return ni;
     }
@@ -100,6 +75,14 @@ public class Person {
 
     public void setPassport(String passport) {
         this.passport = passport;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getGender() {
@@ -133,5 +116,4 @@ public class Person {
     public void setPhoto(String photo) {
         this.photo = photo;
     }
-
 }
