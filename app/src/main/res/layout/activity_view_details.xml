@@ -6,4 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ViewDetails">
 
+    <include layout="@layout/rv_details"></include>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
